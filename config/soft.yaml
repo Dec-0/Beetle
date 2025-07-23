@@ -1,0 +1,53 @@
+#----- conda env & python & R & perl -----
+# conda env for fq manipulation, which should include soft like: chopper, NanoFilt, jasmine
+env4fq	/public/home/xiezhangdong/softs/miniconda3/envs/sci
+# conda env for phasing, which should include soft like: whatshap
+env4phasing	/public/home/xiezhangdong/softs/miniconda3/envs/py39
+# conda env for clair3
+env4clair3	/public/home/xiezhangdong/softs/miniconda3/envs/clair3
+# conda env for debreak
+env4debreak	/public/home/xiezhangdong/softs/miniconda3/envs/debreak
+# Perl 5.26.3, with packages like: FindBin, File::Basename, Getopt::Long
+perl	/public/home/xiezhangdong/softs/perl-5.26.3/bin/perl
+# Python 3.12.2, with packages like: argparse, os, sys, re, pycirclize, numpy, collections
+python1	/public/home/xiezhangdong/softs/miniconda3/envs/sci/bin/python
+# Python 2.7.16, with packages like: sys, commands
+python2	/public/home/xiezhangdong/softs/Python-2.7.16/bin/python
+# Python 3.7.7, with packages like: argparse, os, sys, re, pickle, random, gzip, numpy, pandas, pysam
+python3	/public/home/xiezhangdong/softs/Python-3.7.7/bin/python3
+# Python 3.12.2, with packages like: argparse, pysam, time, sys, os, numpy, collections, pathlib
+python4	/public/home/xiezhangdong/softs/miniconda3/envs/sci/bin/python3
+# R 4.3.1, with packages like: ggplot2, grid, svglite, scales, 
+Rscript1	/public/home/xiezhangdong/softs/miniconda3/envs/R36/bin/Rscript
+# R 4.2.0, wich packages like: argparser, ExomeDepth, argparser, matrixStats, QDNAseq, Biobase, QDNAseq.hg38, QDNAseq.hg19
+Rscript2	/public/home/xiezhangdong/softs/miniconda3/envs/R42/bin/Rscript
+#----- software -----
+samtools1	/public/home/xiezhangdong/softs/samtools-1.14/bin/samtools
+samtools2	/public/home/xiezhangdong/softs/miniconda3/envs/samtools/bin/samtools
+env4minimap	/public/home/xiezhangdong/softs/miniconda3/envs/minimap
+ngmlr	/public/home/xiezhangdong/softs/ngmlr-0.2.7/ngmlr
+pbmm2	/public/home/xiezhangdong/softs/miniconda3/bin/pbmm2
+fastp	/public/home/xiezhangdong/softs/fastp-0.20.0/fastp
+bedtools	/public/home/xiezhangdong/softs/bedtools-2.26.0/bin/bedtools
+mosdepth	/public/home/xiezhangdong/softs/mosdepth-v0.3.6/bin/mosdepth
+fxTools	/public/home/xiezhangdong/softs/fxTools-0.1.0/target/release/fxTools
+csvtk	/public/home/xiezhangdong/softs/cstvk-0.29.0/bin/csvtk
+bcftools	/public/home/xiezhangdong/softs/hap.py-0.3.15/bin/bcftools
+tabix	/public/home/xiezhangdong/softs/samtools-1.14/bin/tabix
+bgzip	/public/home/xiezhangdong/softs/samtools-1.14/bin/bgzip
+vcftools	/public/home/xiezhangdong/softs/vcftools_0.1.13/bin/vcftools
+vcfsort	/public/home/xiezhangdong/softs/vcftools_0.1.13/bin/vcf-sort
+pbsv	/public/home/xiezhangdong/softs/miniconda3/bin/pbsv
+nanoplot	/public/home/xiezhangdong/softs/Python-3.7.7/bin/NanoPlot
+sniffles	/public/home/xiezhangdong/softs/Python-3.7.7/bin/sniffles
+cuteSV	/public/home/xiezhangdong/softs/Python-3.7.7/bin/cuteSV
+truvari	/public/home/xiezhangdong/softs/Python-3.7.7/bin/truvari
+annotSV	/public/home/zhengyb/software/AnnotSV/bin/AnnotSV
+#----- files -----
+Sif4DeepVariant	/public/home/xiezhangdong/softs/DeepVariant-1.6.0/deepvariant_1.6.0.sif
+Sif4PepperDeepVariant	/public/home/xiezhangdong/softs/pepper_deepvariant/pepper_deepvariant_r0.8.sif
+Sif4Annovar	/public/home/zhengyb/containers/annovar.sif
+annotSVDB	/public/home/zhengyb/software/AnnotSV/db/share/AnnotSV
+annovarDB	/public/home/xiezhangdong/DB/Annotation/hg38
+DB4SV	/public/home/xiezhangdong/DB/Annotation/SV_hg38
+File4SNPList	/public/home/xiezhangdong/DB/Annotation/hg38/hg38_EAS.sites.2015_08.Freq0.5.txt.gz

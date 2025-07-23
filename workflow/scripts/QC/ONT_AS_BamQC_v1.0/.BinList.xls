@@ -1,0 +1,5 @@
+Bed4Genome	/public/home/xiezhangdong/DB/Reference/hg38/hg38.NBlockRemove.bed
+Samtools	/public/home/xiezhangdong/softs/samtools-1.14/bin/samtools
+Bedtools	/public/home/xiezhangdong/softs/bedtools-2.26.0/bin/bedtools
+fxTools	/public/home/xiezhangdong/softs/fxTools-0.1.0/target/release/fxTools
+MaxThreadNum	2

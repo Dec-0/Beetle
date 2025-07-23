@@ -1,0 +1,34 @@
+Sample: None
+Stamp: None
+DSPer: None
+DSNum: None
+DSCov: None
+Flag4Trim: "No"
+Flag4QC: "Yes"
+Flag4SnpIndel: "Yes"
+Flag4SV: "Yes"
+Flag4CNV_On: "Yes"
+Flag4CNV_Off: "Yes"
+Genome: "/public/home/xiezhangdong/DB/Reference/hg38/hg38.fasta"
+Bed4Genome: "/public/home/xiezhangdong/DB/Reference/hg38/genome.Nblock.bed"
+Prefix4Fq: "/public/home/xiezhangdong/projects/FuwaiCHD_Panel/Fastq"
+Bed4Panel: "/public/home/xiezhangdong/projects/FuwaiCHD_Panel/DataFromHospital/Panel_450Genes/CHDPanel_450Genes.hg38.PromoterGeneBody.nochr.bed"
+Bed4PanelExtend: "/public/home/xiezhangdong/projects/FuwaiCHD_Panel/DataFromHospital/Panel_450Genes/CHDPanel_450Genes.hg38.PromoterGeneBody.80kb.nochr.bed"
+Bed4Depth: "/public/home/xiezhangdong/projects/FuwaiCHD_Panel/DataFromHospital/Panel_450Genes/CHDPanel_450Genes.hg38.PromoterGeneBody.nochr.bed"
+RootDir: "/public"
+# QC
+WindowWGS: "/public/home/xiezhangdong/DB/Reference/hg38/hg38.fasta.100k_50k.windows"
+WindowSize4WGS: "50000"
+# SNP & InDel
+Model4Clair3: "/public/home/zhengyb/miniconda3/envs/clair3/bin/models/r1041_e82_400bps_sup_g615"
+Model4Pepper: "--ont_r10_q20"
+Model4Deep: "ONT_R104"
+# On-Target CNV
+BamRefList: "/public/home/xiezhangdong/projects/FuwaiCHD_Panel/DataFromHospital/Panel_450Genes/CHDPanel_450Genes.ExomeDepth.RefBam.txt"
+PanelBinPrefix: "/public/home/xiezhangdong/projects/FuwaiCHD_Panel/DataFromHospital/Panel_450Genes/CHDPanel_450Genes.hg38.PromoterGeneBody.nochr.5kBin"
+RefSet4ReadCountPrefix: "/public/home/xiezhangdong/projects/FuwaiCHD_Panel/DataFromHospital/Panel_450Genes/5kBin.CHD450.Prospective50SP_Retrospective4SP_Strip5.ReadCount.WithGC"
+RefSet4MeanDepthPrefix: "/public/home/xiezhangdong/projects/FuwaiCHD_Panel/DataFromHospital/Panel_450Genes/5kBin.CHD450.Prospective50SP_Retrospective4SP_Strip5.MeanDepth.WithGC"
+# Off-Target CNV
+BinInfo4QDNAseq: "/public/home/xiezhangdong/DB/CNV/QDNAseq/Bin30Kb_GEMLen600_residualCHD450.txt"
+GenType: "hg38"
+CNVBin: "30"
