@@ -1,4 +1,4 @@
-#!/usr/bin/env Rscript
+#!/usr/bin/Rscript
 
 library(argparser)
 
@@ -28,6 +28,7 @@ cat("[ Info ] cutoff is ", argv$cutoff, "\n")
 library(matrixStats)
 library(QDNAseq)
 library(Biobase)
+set.seed(20240801)
 
 # 1. load genome bin information
 if (argv$File4Bin != "-") {
